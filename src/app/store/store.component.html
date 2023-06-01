@@ -1,0 +1,12 @@
+<app-card>
+    <h5 header>Use Case 3</h5>
+    <div>
+        Select the category:
+            <select [(ngModel)]="category" (change)="updateProd()">
+                <option *ngFor="let c of categoryList" [value]="c">{{c}}</option>
+            </select>
+    
+            <app-product [category]="category"></app-product>
+            <app-total [category]="category"></app-total>
+    </div>
+</app-card> <hr>

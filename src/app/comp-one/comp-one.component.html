@@ -1,0 +1,12 @@
+<div class="card">
+    <div class="card-header">
+        <h6>Component 1</h6>
+    </div>
+    <div class="card-body"> 
+        <p>Enter text: <input type="text" [(ngModel)]="inpText"></p>
+        <button class="btn btn-primary" (click)="submitClicked()">Submit (Service)</button> &nbsp;&nbsp;
+        <button class="btn btn-primary" (click)="submitClicked1()">Submit (Mediator)</button> &nbsp;&nbsp;
+        <button class="btn btn-primary" [routerLink]="'comptwo/' + inpText">Submit (Routing)</button> &nbsp;&nbsp;
+        <button class="btn btn-primary" (click)="submitClicked2()">Submit (rxjs)</button> &nbsp;&nbsp;
+    </div>
+</div>

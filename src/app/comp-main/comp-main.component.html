@@ -1,0 +1,11 @@
+<!-- <app-comp-one (childInpText)="HandleFromChild($event)"></app-comp-one>
+<br>
+<app-comp-two [fromParent]="toChild"></app-comp-two>
+<router-outlet></router-outlet> -->
+<app-card>
+    <h5 header>Use Case 1</h5>
+    <app-comp-one (childInpText)="HandleFromChild($event)"></app-comp-one>
+    <br>
+    <app-comp-two [fromParent]="toChild"></app-comp-two>
+    <router-outlet></router-outlet>
+</app-card> <hr>

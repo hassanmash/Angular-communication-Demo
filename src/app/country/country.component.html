@@ -1,0 +1,30 @@
+<app-card>
+    <h5 header>Use Case 2</h5>
+    <div>
+        Select country(Without Observable): <select [(ngModel)]="country" (change)="getCityList()">
+            <option *ngFor="let i of countryList" [value]="i">{{i}}</option>
+        </select>
+        <br><br>
+        <section [ngStyle]="{'display': styleExp}">
+            Select State/City: <select [(ngModel)]="city">
+                <option *ngFor="let i of cityList" [value]="i">{{i}}</option>
+            </select>
+        </section>
+    </div>
+    <hr>
+    <div>
+        Select country(With Observable): <select [(ngModel)]="country" (change)="getCityListObsrv()">
+            <option *ngFor="let i of countryListObsrv" [value]="i">{{i}}</option>
+        </select>
+        <br><br>
+        <section [ngStyle]="{'display': styleExpObsrv}">
+            Select State/City: <select [(ngModel)]="city">
+                <option *ngFor="let i of cityListObsrv" [value]="i">{{i}}</option>
+            </select>
+        </section>
+    </div>
+    <br>
+    <small>Click the button to get the country list: &nbsp;</small>
+    <button class="btn btn-warning" (click)="getCountryList()">Get List</button>&nbsp;&nbsp;
+    <button class="btn btn-warning" (click)="getCountryListObsrv()">Get List (Observables)</button>
+  </app-card> <hr>

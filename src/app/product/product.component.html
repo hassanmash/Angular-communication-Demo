@@ -1,0 +1,15 @@
+<hr>
+<table border="1" width="100%">
+    <tr>
+        <th>ID</th>
+        <th>Category</th>
+        <th>Name</th>
+        <th>Price</th>
+    </tr>
+    <tr *ngFor="let i of this.svc.productList">
+        <th> {{ i.id }} </th>
+        <th> {{ i.category }} </th>
+        <th> {{ i.productname }} </th>
+        <th> {{ i.price }} </th>
+    </tr>
+</table>

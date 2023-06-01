@@ -1,0 +1,124 @@
+{
+    "products": [
+        {
+            "id": 100,
+            "productname": "Samsung",
+            "price": "80000",
+            "category": "Electronics"
+        },
+        {
+            "id": 101,
+            "productname": "Iphone",
+            "price": "120000",
+            "category": "Electronics"
+        },
+        {
+            "id": 102,
+            "productname": "Lenovo",
+            "price": "60000",
+            "category": "Electronics"
+        },
+        {
+            "id": 103,
+            "productname": "Airbuds",
+            "price": "20000",
+            "category": "Electronics"
+        },
+        {
+            "id": 104,
+            "productname": "Smart watch",
+            "price": "45000",
+            "category": "Electronics"
+        },
+        {
+            "id": 200,
+            "productname": "Milk",
+            "price": "25",
+            "category": "Diary"
+        },
+        {
+            "id": 201,
+            "productname": "Curd",
+            "price": "20",
+            "category": "Diary"
+        },
+        {
+            "id": 202,
+            "productname": "Cheese",
+            "price": "40",
+            "category": "Diary"
+        },
+        {
+            "id": 203,
+            "productname": "Yogurt",
+            "price": "36",
+            "category": "Diary"
+        },
+        {
+            "id": 204,
+            "productname": "Hot Chocolate",
+            "price": "50",
+            "category": "Diary"
+        },
+        {
+            "id": 300,
+            "productname": "Standard",
+            "price": "1200",
+            "category": "Casual Wear"
+        },
+        {
+            "id": 301,
+            "productname": "Formals",
+            "price": "1800",
+            "category": "Casual Wear"
+        },
+        {
+            "id": 302,
+            "productname": "Hoodie",
+            "price": "3000",
+            "category": "Casual Wear"
+        },
+        {
+            "id": 303,
+            "productname": "Top",
+            "price": "780",
+            "category": "Casual Wear"
+        },
+        {
+            "id": 304,
+            "productname": "Pant",
+            "price": "3400",
+            "category": "Casual Wear"
+        },
+        {
+            "id": 400,
+            "productname": "Adidas",
+            "price": "3400",
+            "category": "Footwear"
+        },
+        {
+            "id": 401,
+            "productname": "Puma",
+            "price": "4900",
+            "category": "Footwear"
+        },
+        {
+            "id": 402,
+            "productname": "Bata",
+            "price": "2390",
+            "category": "Footwear"
+        },
+        {
+            "id": 403,
+            "productname": "Nike",
+            "price": "3400",
+            "category": "Footwear"
+        },
+        {
+            "id": 404,
+            "productname": "Bucca buchi",
+            "price": "3200",
+            "category": "Footwear"
+        }
+    ]
+}
