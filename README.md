@@ -4,6 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
+Run `npm i` to install all the neccesary node modules initially. (run only once)
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
@@ -25,3 +26,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## To run the app
+
+1. install json-server (quick and easy way to create API), use command:  `npm install --save json-server`
+2. Create a .json file anywhere in the application and put some sample JSON data inside it. In this case you will find `data.json` in app folder
+3. Start json server from cmd
+            `node_modules\.bin\json-server src/app/data.json`
+
+This starts up at port 3000 and reads resource name from file and hosts it as RESTful
